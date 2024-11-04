@@ -1,5 +1,5 @@
 {
-  "homepage": "https://alekiss.github.io/CHUCK_NORRIS_REACT", //Será a URL do seu projeto, ela consiste de https://nomedousuario.gitgub.io/<nomedorepo>
+  "homepage": "https://alekiss.github.io/CHUCK_NORRIS_REACT", 
   "name": "chuck-norris-react",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build", //Faz com que os arquivos de produção sejam gerados
-    "deploy": "gh-pages -d dist" //Script para gerar o código e mandar para o github pages
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d dist" 
   },
   "dependencies": {
     "axios": "^1.7.7",
